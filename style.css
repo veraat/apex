@@ -1,0 +1,182 @@
+body{
+    display: block;
+    color:black;
+}
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+
+}
+.links {
+    float: left;
+    color: powderblue;
+    padding-top: 5px;
+    padding-right: 7px;
+    padding-bottom: 9px;
+    padding-left: 7px;
+    font-size: 20px;
+    font-family: 'Grandstander', cursive;
+    margin: 10px;
+}
+#Home{
+    margin-top: 10px;
+    position: absolute;
+    overflow: hidden;
+    height: 80px;
+    color: white;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.83;
+    background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(255, 0, 51) 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+#name{
+    color:black;
+    font-family: Sansita Swashed;
+}
+.profile {
+    width: 200px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+#pol{
+    font-family:Arial, Helvetica, sans-serif;
+    color:black;
+}
+#About {
+    margin-top: 800px;
+    text-align: center;
+    font-size: 42px;
+}
+
+
+hr{
+    width: 100%;
+    height:10px;
+    background-color: black;
+}
+
+img{
+    width: 500px;
+    
+}
+button{
+    cursor: pointer;
+    height: 50px;
+    width: 100px;
+    background-color:red;
+    color:white;
+}
+#Legends{
+    background-color:red;
+}
+#Maps{
+    background-color:#9cb084;
+}
+#Maps p{
+    color:white;
+}
+.Mapname{
+    list-style: none;
+    list-style: none;
+    font-family: sans-serif;
+ 
+}
+.Mapname:hover{
+    color:red;
+    background-color:red;
+    cursor: pointer;
+}
+#Olympus img{
+    width: 100%;
+}
+#Olympus{
+    text-align: left;
+    background-color:red;
+}
+#Olympus p{
+    font-size: 25px;
+}
+li{
+    width:max-content;
+}
+#Worlds_Edge img{
+    width: 100%;
+}
+#Worlds_Edge{
+    text-align: left;
+    background-color:red;
+}
+#Worlds_Edge p{
+    font-size: 25px;
+}
+#Kings_Canyon img{
+    width: 100%;
+}
+#Kings_Canyon{
+    text-align: left;
+    background-color:red;
+}
+#Kings_Canyon p{
+    font-size:25px;
+}
+#Faq{
+ background-color:whitesmoke;
+    text-align: left;
+    padding: 50px;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.faq{
+list-style:lower-roman;
+font-size:35px;
+
+}
+#q{
+    text-align: left;
+}
+#Where_and_How_to_Play_Apex_Legends{
+    text-align: left;
+}
+.first{
+    color:white;
+    background-color:black;
+}
+.second{
+    background-color:white;
+    
+}
+.third {
+    text-align: left;
+    background-color:black;
+    color:white;
+}
+.third h2{
+   text-align: center;
+}
+.third hr{
+    width:285px;
+    height:2.5px;
+    background-color:white;
+}
+.fourth{
+    background-color:white;
+}
+.fifth{
+    background-color:black;
+    color:white;
+}
+#Download button{
+    width:225px;
+    height:225px;
+}
